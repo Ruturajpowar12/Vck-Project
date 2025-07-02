@@ -1,0 +1,172 @@
+/* .content{
+    align-items: center;
+    
+background-color : rgb(82, 210, 210);
+
+
+}
+  .content {
+  background-color: #f4f7f6;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.2;
+  max-width: 2000px;
+  margin: auto;
+  
+  }
+
+
+
+.scroll-box {
+  width: 800px;
+  height: 500px; 
+  overflow: auto; 
+  border: 1px solid black;
+  align-items: center;
+
+} */
+
+
+/* Reset margin, padding */
+/* Reset margin, padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure full screen */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #71f7f7; /* light background */
+  color: #000; /* black text for all content */
+}
+
+/* Main content container */
+.content {
+  width: 100%;
+  min-height: 100vh;
+  padding: 12px 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #000; /* black text inside content */
+}
+
+.hero-overlay-text h1{
+    color:white ;
+
+}
+
+.hero-overlay-text h3{
+    color:white ;
+
+}
+/* Heading styles */
+h1, h2, h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0a0a0a; /* black text for headings */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Links without underline */
+a {
+  text-decoration: none;
+}
+
+/* Images */
+.imgae {
+  max-width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  margin: 10px;
+  opacity:1;
+  filter: brightness(50%);
+}
+
+/* Scroll box if you want it scrollable */
+.scroll-box {
+  width: 1000px;
+  height: 550px; 
+  overflow: auto; 
+  border: 1px solid ;
+  align-items: center;
+
+  background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #0000000d;
+}
+
+
+
+
+
+/* List */
+ul {
+  list-style: disc inside;
+  text-align: left;
+  max-width: 800px;
+  color: #000; /* black text for list */
+}
+
+/* Center align list block */
+ul, p {
+  margin: 10px auto;
+  color: #000; /* black text for paragraphs */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  img {
+    width: 90%;
+  }
+}    .hero-section {
+        height: 250px;
+    }
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.hero-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 90%;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
