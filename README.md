@@ -8,21 +8,6 @@ This project demonstrates modern React development with Vite, ESLint, and a poli
 
 ---
 
-## 📌 Table of Contents
-
-- [About](#about)
-- [OJT Summary](#ojt-summary)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
 ## 🧐 About
 
 This repository contains a responsive React application built with **Vite**.
@@ -86,29 +71,6 @@ Open the URL shown in the terminal to view the application in your browser.
 - JavaScript
 - CSS
 - ESLint
-
----
-
-## 📁 Project Structure
-
-- `src/` - application source code
-- `src/components/` - reusable UI components
-- `src/pages/` - page-level components
-- `src/hooks/` - custom hooks
-- `src/utils/` - utility helpers and services
-- `public/` - static assets
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome. Please open an issue or submit a pull request to improve the project.
-
----
-
-## 📄 License
-
-This project is available under the terms of the MIT License.
 
 ---
 
